@@ -1,0 +1,57 @@
+[server]
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+
+[theme]
+base = "light"
+primaryColor = "#1E4D3F"
+backgroundColor = "#EEF2EC"
+secondaryBackgroundColor = "#E2E9E3"
+textColor = "#15201B"
+borderColor = "#C8D2CB"
+dataframeBorderColor = "#D5DDD7"
+dataframeHeaderBackgroundColor = "#EEF2EC"
+linkColor = "#1E4D3F"
+codeBackgroundColor = "#E8EEE9"
+codeTextColor = "#15201B"
+redColor = "#C2361F"
+greenColor = "#2D7A4B"
+blueColor = "#2E5BD8"
+yellowColor = "#B88A0E"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "Archivo, sans-serif"
+headingFont = "Archivo, sans-serif"
+codeFont = "JetBrains Mono, monospace"
+headingFontWeights = [650, 620, 600, 600, 600, 600]
+headingFontSizes = ["1.75rem", "1.35rem", "1.125rem", "1rem", "0.95rem", "0.9rem"]
+chartCategoricalColors = ["#2E5BD8", "#D9412B", "#B7861A", "#7A8580", "#1E4D3F", "#E3B323"]
+
+[[theme.fontFaces]]
+family = "Archivo"
+url = "app/static/fonts/Archivo-Variable.ttf"
+weight = "100 900"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "JetBrains Mono"
+url = "app/static/fonts/JetBrainsMono-Variable.ttf"
+weight = "100 800"
+style = "normal"
+
+[theme.sidebar]
+backgroundColor = "#1E4D3F"
+secondaryBackgroundColor = "#173E33"
+textColor = "#E7EFE9"
+borderColor = "#3F6E5F"
+primaryColor = "#F4F7F3"
+linkColor = "#E7EFE9"
+codeBackgroundColor = "#173E33"
+codeTextColor = "#E7EFE9"

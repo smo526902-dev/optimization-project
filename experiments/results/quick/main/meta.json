@@ -1,0 +1,13 @@
+{
+  "mode": "quick",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budget": "1000 * d evaluations",
+  "success_error": 0.0001,
+  "curve_points": 100,
+  "runs": 360,
+  "wall_time_s": 7.7
+}

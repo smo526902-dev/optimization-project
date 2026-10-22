@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="880" viewBox="0 0 1060 880"><defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1A1A1A"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#1A1A1A" stroke-width="1.4"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M1 1 L13 7 L1 13 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 18 10" refX="17" refY="5" markerWidth="18" markerHeight="10" orient="auto-start-reverse"><path d="M1 5 L9 1 L17 5 L9 9 z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1"/></marker>
+<marker id="odiamond" viewBox="0 0 18 10" refX="17" refY="5" markerWidth="18" markerHeight="10" orient="auto-start-reverse"><path d="M1 5 L9 1 L17 5 L9 9 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.2"/></marker>
+</defs><rect width="100%" height="100%" fill="#FFFFFF"/><circle cx="380" cy="30" r="11" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="400" y="30" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">population after elitist replacement</text>
+<rect x="190.0" y="65.0" width="380" height="50" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="90.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Choose the best individual (always)</text>
+<rect x="190.0" y="135.0" width="380" height="50" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Choose each child with probability 0.05</text>
+<polygon points="380,213.0 480.0,250 380,287.0 280.0,250" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="241.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Another chosen</text>
+<text x="380" y="258.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">individual?</text>
+<polygon points="380,323.0 480.0,360 380,397.0 280.0,360" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="351.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Already fully</text>
+<text x="380" y="368.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">refined?</text>
+<rect x="190.0" y="432.0" width="380" height="56" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="451.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Resume its stored step, or start</text>
+<text x="380" y="468.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">from the population&#x27;s spread</text>
+<rect x="190.0" y="522.0" width="380" height="56" rx="16" fill="#EEF2EC" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="541.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Run Hooke–Jeeves: 20·d FEs for the best,</text>
+<text x="380" y="558.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">5·d FEs for a child (same budget)</text>
+<polygon points="380,613.0 480.0,650 380,687.0 280.0,650" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="380" y="650.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Lamarckian?</text>
+<rect x="45.0" y="732.0" width="330" height="56" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="210" y="751.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Write the improved genes and</text>
+<text x="210" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">fitness back; keep the final step</text>
+<rect x="395.0" y="732.0" width="330" height="56" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="560" y="751.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Baldwinian: update the fitness</text>
+<text x="560" y="768.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">only; mark the individual learned</text>
+<rect x="710.0" y="222.0" width="300" height="56" rx="16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="860" y="241.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">Forget the search state of</text>
+<text x="860" y="258.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">individuals that left</text>
+<path d="M380 41 L380 65" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M380 115 L380 135" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M380 185 L380 213" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M380 287 L380 323" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="390" y="305" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">yes</text>
+<path d="M380 397 L380 432" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="390" y="414" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">no</text>
+<path d="M380 488 L380 522" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M380 578 L380 613" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M280 650 L210 650 L210 732" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="240" y="638" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">yes</text>
+<path d="M480 650 L560 650 L560 732" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="540" y="638" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">no</text>
+<path d="M210 788 L210 840 L40 840 L40 250 L280 250" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M560 788 L560 840 L210 840" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<path d="M280 360 L40 360" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="200" y="348" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">yes: skip</text>
+<path d="M480 250 L710 250" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="510" y="238" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">no</text>
+<path d="M860 278 L860 330" fill="none" stroke="#1A1A1A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<circle cx="860" cy="345" r="14" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<circle cx="860" cy="345" r="8" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="860" y="375" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">return population</text>
+<polygon points="620,470 1016,470 1030,484 1030,580 620,580" fill="#FFF8DC" stroke="#1A1A1A" stroke-width="1.4"/>
+<path d="M1016 470 L1016 484 L1030 484" fill="none" stroke="#1A1A1A" stroke-width="1.1"/>
+<text x="630" y="488" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">Local-search chain: the final step of every</text>
+<text x="630" y="505" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">refined individual is remembered, so its search</text>
+<text x="630" y="522" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">resumes where it stopped (Molina et al., 2010)</text>
+<text x="630" y="539" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">instead of starting over with a large step.</text>
+<text x="630" y="556" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">All local-search FEs use the GA&#x27;s own budget.</text>
+<path d="M620 525 L570 460" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="4 3"/></svg>

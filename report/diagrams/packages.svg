@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="500" viewBox="0 0 1180 500"><defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1A1A1A"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#1A1A1A" stroke-width="1.4"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M1 1 L13 7 L1 13 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 18 10" refX="17" refY="5" markerWidth="18" markerHeight="10" orient="auto-start-reverse"><path d="M1 5 L9 1 L17 5 L9 9 z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1"/></marker>
+<marker id="odiamond" viewBox="0 0 18 10" refX="17" refY="5" markerWidth="18" markerHeight="10" orient="auto-start-reverse"><path d="M1 5 L9 1 L17 5 L9 9 z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.2"/></marker>
+</defs><rect width="100%" height="100%" fill="#FFFFFF"/><path d="M30 40 L30 130 A150.0 10 0 0 0 330 130 L330 40" fill="#EEF2EC" stroke="#1A1A1A" stroke-width="1.4"/>
+<ellipse cx="180.0" cy="40" rx="150.0" ry="10" fill="#DCE6DF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="180.0" y="82.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">experiments/results/ · report/figures/</text>
+<text x="180.0" y="99.5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#1A1A1A" dominant-baseline="middle">raw runs, tables, PNG figures</text>
+<rect x="440" y="30" width="110" height="22" rx="0" fill="#DCE6DF" stroke="#1A1A1A" stroke-width="1.4"/>
+<rect x="440" y="52" width="330" height="98" rx="0" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="450" y="41" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">app</text>
+<text x="454" y="76" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">app.py · navigation and theme</text>
+<text x="454" y="94" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">app_pages/ run, explore, compare, results</text>
+<text x="454" y="112" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">app_pages/ui.py · shared look and run engine</text>
+<rect x="30" y="250" width="110" height="22" rx="0" fill="#DCE6DF" stroke="#1A1A1A" stroke-width="1.4"/>
+<rect x="30" y="272" width="330" height="138" rx="0" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="40" y="261" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">experiments</text>
+<text x="44" y="296" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">config.py · what to run</text>
+<text x="44" y="314" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">run.py · parallel runner</text>
+<text x="44" y="332" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">analyze.py · tables, statistics, figures</text>
+<text x="44" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">run_one.py · head_to_head.py</text>
+<text x="44" y="368" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">pilot_ma.py · gallery.py</text>
+<rect x="440" y="250" width="110" height="22" rx="0" fill="#DCE6DF" stroke="#1A1A1A" stroke-width="1.4"/>
+<rect x="440" y="272" width="330" height="183" rx="0" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="450" y="261" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">evoopt</text>
+<text x="454" y="296" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">benchmarks.py · 12 functions, f*, x*</text>
+<text x="454" y="314" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">problem.py · the evaluation budget</text>
+<text x="454" y="332" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">operators.py · selection, crossover, mutation</text>
+<text x="454" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">ga.py · GeneticAlgorithm</text>
+<text x="454" y="368" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">local_search.py · Hooke-Jeeves, hill climbing</text>
+<text x="454" y="386" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">ma.py · MemeticAlgorithm</text>
+<text x="454" y="404" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">baselines.py · random search, SciPy DE</text>
+<text x="454" y="422" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">results.py · RunResult</text>
+<rect x="850" y="250" width="110" height="22" rx="0" fill="#DCE6DF" stroke="#1A1A1A" stroke-width="1.4"/>
+<rect x="850" y="272" width="300" height="108" rx="0" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="860" y="261" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">tests</text>
+<text x="864" y="296" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">9 pytest files, 307 tests:</text>
+<text x="864" y="314" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">library, analysis and</text>
+<text x="864" y="332" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1A1A1A" dominant-baseline="middle">app smoke tests</text>
+<path d="M605 150 L605 250" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="613" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">imports</text>
+<path d="M480 150 L480 200 L290 200 L290 250" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="385" y="188" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">uses the error floor and Wilcoxon test</text>
+<path d="M360 345 L440 345" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="400" y="333" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">imports</text>
+<path d="M120 250 L120 140" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="128" y="195" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#555555" dominant-baseline="middle">writes</text>
+<path d="M440 85 L330 85" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="385" y="73" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">reads</text>
+<path d="M850 330 L770 330" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-dasharray="7 4" marker-end="url(#open)"/>
+<text x="810" y="318" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#555555" dominant-baseline="middle">tests</text></svg>

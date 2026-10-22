@@ -1,0 +1,18 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "docs/project-guide.src.html"
+        ],
+        "createdAt": "2026-10-22T13:10:14.952Z",
+        "reason": "agent: heading scale comes from the visual-explainer kit.css that render.mjs inlines into project-guide.html; the source has no heading sizes, and the rendered sheet shows h1 about 3x body text"
+      }
+    ]
+  }
+}

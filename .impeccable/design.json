@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T14:19:10.597665+00:00",
+  "title": "Design System: Project 27",
+  "extensions": {
+    "colorMeta": {
+      "cabinet-green": {
+        "role": "primary",
+        "displayName": "Cabinet Green",
+        "canonical": "#1E4D3F",
+        "tonalRamp": [
+          "#001009",
+          "#002D22",
+          "#1D4C3E",
+          "#3E6C5D",
+          "#5F8E7E",
+          "#81B1A0",
+          "#A4D6C4",
+          "#C9FCE9"
+        ]
+      },
+      "cabinet-green-deep": {
+        "role": "primary",
+        "displayName": "Cabinet Green Deep",
+        "canonical": "#173E33",
+        "tonalRamp": [
+          "#001009",
+          "#032D22",
+          "#244A3F",
+          "#446A5E",
+          "#648C7F",
+          "#86AFA2",
+          "#AAD4C5",
+          "#CFFAEB"
+        ]
+      },
+      "cabinet-rule": {
+        "role": "primary",
+        "displayName": "Cabinet Rule",
+        "canonical": "#3F6E5F",
+        "tonalRamp": [
+          "#001009",
+          "#002D22",
+          "#1C4C3E",
+          "#3D6C5D",
+          "#5E8E7E",
+          "#80B1A0",
+          "#A4D6C4",
+          "#C9FCEA"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "canonical": "#E7EFE9",
+        "tonalRamp": [
+          "#080D09",
+          "#212722",
+          "#3D443F",
+          "#5C635E",
+          "#7D847F",
+          "#A0A7A2",
+          "#C4CBC6",
+          "#E9F1EB"
+        ]
+      },
+      "rail-caption": {
+        "role": "neutral",
+        "displayName": "Rail Caption",
+        "canonical": "#BFD2C6",
+        "tonalRamp": [
+          "#030E07",
+          "#1A2920",
+          "#36463D",
+          "#55665C",
+          "#76877C",
+          "#98AA9F",
+          "#BCCFC3",
+          "#E1F4E8"
+        ]
+      },
+      "label-paper": {
+        "role": "primary",
+        "displayName": "Label Paper",
+        "canonical": "#F4F7F3",
+        "tonalRamp": [
+          "#0A0C09",
+          "#242623",
+          "#404340",
+          "#5F625F",
+          "#808380",
+          "#A3A6A2",
+          "#C7CAC6",
+          "#ECEFEB"
+        ]
+      },
+      "tray-ground": {
+        "role": "neutral",
+        "displayName": "Tray Ground",
+        "canonical": "#EEF2EC",
+        "tonalRamp": [
+          "#0A0C08",
+          "#232622",
+          "#40433E",
+          "#5F625D",
+          "#80847E",
+          "#A3A6A1",
+          "#C7CAC5",
+          "#ECF0EA"
+        ]
+      },
+      "tray-shade": {
+        "role": "neutral",
+        "displayName": "Tray Shade",
+        "canonical": "#E2E9E3",
+        "tonalRamp": [
+          "#080C09",
+          "#212722",
+          "#3E443F",
+          "#5D635E",
+          "#7E847F",
+          "#A0A7A1",
+          "#C4CBC5",
+          "#EAF1EB"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#15201B",
+        "tonalRamp": [
+          "#040E09",
+          "#1D2823",
+          "#394540",
+          "#58655F",
+          "#798680",
+          "#9BA9A2",
+          "#BFCDC6",
+          "#E4F3EB"
+        ]
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Ink Dim",
+        "canonical": "#4A5A52",
+        "tonalRamp": [
+          "#030E08",
+          "#1A2922",
+          "#37463F",
+          "#55665D",
+          "#76877E",
+          "#98AAA1",
+          "#BCCEC5",
+          "#E1F4EA"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#C8D2CB",
+        "tonalRamp": [
+          "#070D09",
+          "#202722",
+          "#3C443F",
+          "#5B645E",
+          "#7C857F",
+          "#9EA8A1",
+          "#C2CCC5",
+          "#E7F2EA"
+        ]
+      },
+      "grid-rule": {
+        "role": "neutral",
+        "displayName": "Grid Rule",
+        "canonical": "#E4EAE5",
+        "tonalRamp": [
+          "#080C09",
+          "#222623",
+          "#3F433F",
+          "#5E635E",
+          "#7F847F",
+          "#A1A7A2",
+          "#C5CBC6",
+          "#EAF0EB"
+        ]
+      },
+      "elite-yellow": {
+        "role": "secondary",
+        "displayName": "Elite Yellow",
+        "canonical": "#E3B323",
+        "tonalRamp": [
+          "#130900",
+          "#302300",
+          "#533F00",
+          "#795D00",
+          "#A07D12",
+          "#CA9F1C",
+          "#F3C23B",
+          "#FEEDC4"
+        ]
+      },
+      "ga-cobalt": {
+        "role": "tertiary",
+        "displayName": "GA Cobalt",
+        "canonical": "#2E5BD8",
+        "tonalRamp": [
+          "#010039",
+          "#03007B",
+          "#0C2DA9",
+          "#2853CF",
+          "#4678F7",
+          "#79A2FE",
+          "#B0C9FE",
+          "#E7EFFE"
+        ]
+      },
+      "ma-vermilion": {
+        "role": "tertiary",
+        "displayName": "MA Vermilion",
+        "canonical": "#D9412B",
+        "tonalRamp": [
+          "#210000",
+          "#4D0100",
+          "#7F0900",
+          "#B51600",
+          "#DE462F",
+          "#FA7963",
+          "#FFB4A5",
+          "#FEE9E5"
+        ]
+      },
+      "de-ochre": {
+        "role": "tertiary",
+        "displayName": "DE Ochre",
+        "canonical": "#B7861A",
+        "tonalRamp": [
+          "#150800",
+          "#332200",
+          "#573D01",
+          "#7E5A07",
+          "#A67A1A",
+          "#CE9C38",
+          "#F4C060",
+          "#FFECCC"
+        ]
+      },
+      "rs-slate": {
+        "role": "tertiary",
+        "displayName": "RS Slate",
+        "canonical": "#7A8580",
+        "tonalRamp": [
+          "#060D0A",
+          "#1E2723",
+          "#3B4540",
+          "#5A645F",
+          "#7A8580",
+          "#9DA8A3",
+          "#C1CCC7",
+          "#E6F2EC"
+        ]
+      },
+      "verdict-ok-ink": {
+        "role": "neutral",
+        "displayName": "Verdict OK Ink",
+        "canonical": "#22603A",
+        "tonalRamp": [
+          "#001103",
+          "#002E14",
+          "#0C4F2A",
+          "#337049",
+          "#559269",
+          "#78B68B",
+          "#9CDBAE",
+          "#C8FED7"
+        ]
+      },
+      "verdict-ok-wash": {
+        "role": "neutral",
+        "displayName": "Verdict OK Wash",
+        "canonical": "#E3F1E8",
+        "tonalRamp": [
+          "#050E08",
+          "#1D2821",
+          "#3A453E",
+          "#59655D",
+          "#79867E",
+          "#9CA9A0",
+          "#C0CDC4",
+          "#E5F3EA"
+        ]
+      },
+      "verdict-ok-edge": {
+        "role": "neutral",
+        "displayName": "Verdict OK Edge",
+        "canonical": "#B9DCC6",
+        "tonalRamp": [
+          "#001005",
+          "#0D2C1C",
+          "#2B4A38",
+          "#4A6A57",
+          "#6B8B77",
+          "#8DAF9A",
+          "#B0D3BD",
+          "#D5F9E2"
+        ]
+      },
+      "verdict-no-ink": {
+        "role": "neutral",
+        "displayName": "Verdict No Ink",
+        "canonical": "#8E2A1A",
+        "tonalRamp": [
+          "#210000",
+          "#4D0100",
+          "#7B1605",
+          "#A03B2B",
+          "#C75E4C",
+          "#EE826D",
+          "#FFB4A4",
+          "#FEE9E5"
+        ]
+      },
+      "verdict-no-wash": {
+        "role": "neutral",
+        "displayName": "Verdict No Wash",
+        "canonical": "#F8E5E1",
+        "tonalRamp": [
+          "#130806",
+          "#2F211F",
+          "#4D3E3B",
+          "#6D5D5A",
+          "#8F7E7A",
+          "#B2A09D",
+          "#D7C4C1",
+          "#FDEAE6"
+        ]
+      },
+      "verdict-no-edge": {
+        "role": "neutral",
+        "displayName": "Verdict No Edge",
+        "canonical": "#EBC0B7",
+        "tonalRamp": [
+          "#1C0201",
+          "#3A1B15",
+          "#5A3831",
+          "#7C574F",
+          "#9F776F",
+          "#C39A91",
+          "#E9BEB5",
+          "#FEE9E5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title naming the problem shown."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings."
+      },
+      "verdict": {
+        "displayName": "Verdict",
+        "purpose": "The one-sentence statistical verdict, max 60ch."
+      },
+      "label-heading": {
+        "displayName": "Label heading",
+        "purpose": "Accession label heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Ledes (Ink Dim, max 72ch) and prose."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Label rows, table cells, the fairness line."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Table column heads in Ink Dim."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Every number, tabular figures, 0.94em of its context."
+      },
+      "chart-tick": {
+        "displayName": "Chart tick",
+        "purpose": "Plotly ticks; hover labels and generation readout at 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pin-ring",
+        "value": "inset 0 0 0 2px rgba(255,255,255,.85), 0 0 0 1px var(--c)",
+        "purpose": "Draws the pin head's paper ring and colour edge; not elevation. The system has no elevation shadows."
+      },
+      {
+        "name": "pin-hollow",
+        "value": "0 0 0 1.5px var(--c)",
+        "purpose": "Hollow pin ring for unsolved runs."
+      }
+    ],
+    "motion": [
+      {
+        "name": "generation-frame",
+        "value": "150ms per frame, 120ms cubic-out transition",
+        "purpose": "Plotly playback of the population across generations."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "streamlit-default",
+        "value": "Streamlit defaults; the rail collapses to a drawer and columns stack on mobile"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Run Button (rail primary)",
+      "kind": "button",
+      "refersTo": "button-run",
+      "description": "The single primary action: a label-paper slip on the cabinet-green rail.",
+      "html": "<div class=\"ds-rail\"><button class=\"ds-btn-run\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M8 5v14l11-7z\"/></svg>Run</button></div>",
+      "css": ".ds-rail { background: #1E4D3F; padding: 16px; width: 240px; } .ds-btn-run { font-family: Archivo, sans-serif; display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 8px 12px; background: #F4F7F3; color: #15201B; font-size: 15px; font-weight: 650; border: 1px solid #F4F7F3; border-radius: 4px; cursor: pointer; transition: background .15s, border-color .15s; } .ds-btn-run:hover { background: #FFFFFF; border-color: #FFFFFF; } .ds-btn-run:focus-visible { outline: 2px solid #F4F7F3; outline-offset: 2px; }"
+    },
+    {
+      "name": "Play / Pause",
+      "kind": "button",
+      "refersTo": "button-play",
+      "description": "Cabinet-green animation buttons on their own row under the full-width generation slider.",
+      "html": "<div class=\"ds-play\"><button class=\"ds-btn-play\">Play generations</button><button class=\"ds-btn-play\">Pause</button></div>",
+      "css": ".ds-play { display: flex; gap: 2px; } .ds-btn-play { font-family: Archivo, sans-serif; background: #1E4D3F; color: #FFFFFF; font-size: 13px; padding: 6px 14px; border: 1px solid #1E4D3F; border-radius: 2px; cursor: pointer; } .ds-btn-play:hover { background: #173E33; } .ds-btn-play:focus-visible { outline: 2px solid #15201B; outline-offset: 2px; }"
+    },
+    {
+      "name": "Outcome Chips",
+      "kind": "chip",
+      "refersTo": "chip-ok",
+      "description": "Pill chips stating outcomes plainly: solved/better, tie, not solved/worse.",
+      "html": "<span class=\"ds-chip ds-ok\">solved</span><span class=\"ds-chip ds-tie\">tie</span><span class=\"ds-chip ds-no\">worse</span>",
+      "css": ".ds-chip { font-family: Archivo, sans-serif; display: inline-block; padding: 0 8px; margin-right: 6px; border-radius: 999px; font-size: 12px; line-height: 1.55; border: 1px solid; } .ds-ok { color: #22603A; background: #E3F1E8; border-color: #B9DCC6; } .ds-no { color: #8E2A1A; background: #F8E5E1; border-color: #EBC0B7; } .ds-tie { color: #4A5A52; background: #EEF2EC; border-color: #C8D2CB; }"
+    },
+    {
+      "name": "Accession Label",
+      "kind": "card",
+      "refersTo": "accession-label",
+      "description": "The best specimen's typed label: yellow pin, heading, mono accession number, ink rule, ruled rows.",
+      "html": "<div class=\"ds-acc\"><div class=\"ds-acc-head\"><h3><span class=\"ds-pin\" style=\"--c:#E3B323\"></span>Best specimen</h3><span class=\"ds-num ds-dim\">MA·s1·g275</span></div><dl><dt>f(x)</dt><dd><span class=\"ds-num\">0</span></dd><dt>error f − f*</dt><dd><span class=\"ds-num\">0</span> <span class=\"ds-chip-ok\">solved</span></dd><dt>budget used</dt><dd><span class=\"ds-num\">20,000</span> of <span class=\"ds-num\">20,000</span> evaluations</dd></dl></div>",
+      "css": ".ds-acc { font-family: Archivo, sans-serif; color: #15201B; background: #FFFFFF; border: 1px solid #C8D2CB; border-radius: 4px; padding: 14px 16px 10px; max-width: 340px; } .ds-acc-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-bottom: 1.5px solid #15201B; padding-bottom: 8px; } .ds-acc h3 { margin: 0; font-size: 1.05rem; font-weight: 600; display: flex; align-items: center; gap: 9px; } .ds-dim { color: #4A5A52; font-size: .8rem; } .ds-num { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: .94em; } .ds-pin { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 2px rgba(255,255,255,.85), 0 0 0 1px var(--c); } .ds-acc dl { display: grid; grid-template-columns: max-content 1fr; column-gap: 16px; margin: 4px 0 0; } .ds-acc dt, .ds-acc dd { margin: 0; padding: 6px 0; border-top: 1px solid #E4EAE5; font-size: .86rem; } .ds-acc dl > :nth-child(1), .ds-acc dl > :nth-child(2) { border-top: 0; } .ds-acc dt { color: #4A5A52; } .ds-chip-ok { display: inline-block; padding: 0 8px; border-radius: 999px; font-size: .74rem; color: #22603A; background: #E3F1E8; border: 1px solid #B9DCC6; }"
+    },
+    {
+      "name": "Drawer of Unit Trays",
+      "kind": "custom",
+      "refersTo": "unit-tray",
+      "description": "One tray per seed; solved trays take an 8% series wash and a solid pin, unsolved stay paper with a hollow pin.",
+      "html": "<div class=\"ds-trays\"><div class=\"ds-tray ds-hit\" style=\"--c:#D9412B\"><span class=\"ds-tpin\"></span><div class=\"ds-seed\">seed 3</div><div class=\"ds-val\">2.46e-06</div></div><div class=\"ds-tray\" style=\"--c:#D9412B\"><span class=\"ds-tpin ds-hollow\"></span><div class=\"ds-seed\">seed 7</div><div class=\"ds-val\">0.03093</div></div><div class=\"ds-tray\" style=\"--c:#2E5BD8\"><span class=\"ds-tpin ds-hollow\"></span><div class=\"ds-seed\">seed 1</div><div class=\"ds-val\">2.704</div></div></div>",
+      "css": ".ds-trays { font-family: Archivo, sans-serif; display: grid; grid-template-columns: repeat(auto-fill, minmax(74px, 1fr)); gap: 6px; max-width: 320px; padding: 12px; background: #EEF2EC; } .ds-tray { position: relative; background: #FFFFFF; border: 1px solid #C8D2CB; border-radius: 3px; padding: 6px 6px 8px; min-height: 54px; } .ds-hit { background: color-mix(in srgb, var(--c) 8%, #FFFFFF); border-color: color-mix(in srgb, var(--c) 42%, #FFFFFF); } .ds-seed { font-size: .72rem; color: #4A5A52; } .ds-val { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: .76rem; margin-top: 7px; color: #15201B; } .ds-tpin { position: absolute; top: 7px; right: 7px; width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 2px rgba(255,255,255,.85), 0 0 0 1px var(--c); } .ds-hollow { background: #FFFFFF; box-shadow: 0 0 0 1.5px var(--c); }"
+    },
+    {
+      "name": "In-World Table",
+      "kind": "custom",
+      "refersTo": "table-wrap",
+      "description": "Paper-wrapped table: label-type heads over an ink rule, grid-ruled rows, pins and series rate bars, mono numerals right-aligned.",
+      "html": "<div class=\"ds-tw\"><table class=\"ds-tbl\"><thead><tr><th>Algorithm</th><th>Solved</th><th class=\"ds-r\">Median error</th></tr></thead><tbody><tr><td><span class=\"ds-who\"><span class=\"ds-p\" style=\"--c:#2E5BD8\"></span>Genetic Algorithm</span></td><td><span class=\"ds-bar\" style=\"--c:#2E5BD8\"><i style=\"width:0%\"></i></span><span class=\"ds-n\">0%</span></td><td class=\"ds-r ds-n\">2.317</td></tr><tr><td><span class=\"ds-who\"><span class=\"ds-p\" style=\"--c:#D9412B\"></span>Memetic Algorithm</span></td><td><span class=\"ds-bar\" style=\"--c:#D9412B\"><i style=\"width:70%\"></i></span><span class=\"ds-n\">70%</span></td><td class=\"ds-r ds-n\">6.51e-06</td></tr></tbody></table></div>",
+      "css": ".ds-tw { font-family: Archivo, sans-serif; background: #FFFFFF; border: 1px solid #C8D2CB; border-radius: 4px; overflow-x: auto; color: #15201B; } .ds-tbl { width: 100%; border-collapse: collapse; font-size: .86rem; } .ds-tbl th { text-align: left; font-weight: 600; color: #4A5A52; font-size: .78rem; padding: 9px 12px; border-bottom: 1.5px solid #15201B; white-space: nowrap; } .ds-tbl td { padding: 7px 12px; border-top: 1px solid #E4EAE5; vertical-align: middle; } .ds-tbl tr:first-child td { border-top: 0; } .ds-tbl .ds-r { text-align: right; } .ds-n { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: .94em; } .ds-who { display: inline-flex; align-items: center; gap: 8px; } .ds-p { width: 12px; height: 12px; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 2px rgba(255,255,255,.85), 0 0 0 1px var(--c); } .ds-bar { display: inline-block; width: 56px; height: 6px; border-radius: 3px; background: #E4EAE5; overflow: hidden; vertical-align: middle; margin-right: 8px; } .ds-bar i { display: block; height: 100%; background: var(--c); }"
+    },
+    {
+      "name": "Navigation Rail",
+      "kind": "nav",
+      "refersTo": "nav-rail",
+      "description": "Cabinet-green sidebar: page links, active page on a lighter green band, brand closing the rail.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-on\" href=\"#\">Watch a run</a><a href=\"#\">Explore landscapes</a><a href=\"#\">GA vs MA</a><a href=\"#\">Saved results</a><div class=\"ds-brand\"><b>Project 27</b><span>Genetic and Memetic Algorithms on 12 benchmark functions</span></div></nav>",
+      "css": ".ds-nav { font-family: Archivo, sans-serif; background: #1E4D3F; width: 220px; padding: 16px; display: flex; flex-direction: column; gap: 2px; } .ds-nav a { color: #E7EFE9; text-decoration: none; font-size: 14px; padding: 6px 10px; border-radius: 4px; } .ds-nav a:hover { background: #173E33; } .ds-nav a:focus-visible { outline: 2px solid #F4F7F3; } .ds-nav a.ds-on { background: #3F6E5F; font-weight: 650; } .ds-brand { margin-top: 20px; color: #E7EFE9; } .ds-brand b { font-size: 1.05rem; letter-spacing: -.01em; } .ds-brand span { display: block; color: #BFD2C6; font-size: .82rem; margin-top: 2px; }"
+    },
+    {
+      "name": "Empty State",
+      "kind": "card",
+      "refersTo": "empty-state",
+      "description": "The one dashed edge in the system, for views with nothing to show yet.",
+      "html": "<div class=\"ds-empty\"><b>No race yet.</b><br>Press Race GA and MA to run both algorithms on the same seeds.</div>",
+      "css": ".ds-empty { font-family: Archivo, sans-serif; background: #FFFFFF; border: 1px dashed #C8D2CB; border-radius: 4px; padding: 22px 24px; color: #4A5A52; max-width: 420px; } .ds-empty b { color: #15201B; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Specimen Cabinet",
+    "overview": "Every candidate solution is a specimen: pinned on the landscape where it was found, labelled with its value, filed by generation. The app is a natural-history cabinet. A cabinet-green rail holds navigation and the run controls; the main field is a cool tray ground on which white unit trays sit, each edged by a single hairline. Algorithms are told apart by the colour of their pin heads, and the one best specimen carries a yellow pin and a typed accession label.\n\nThe density is that of a well-kept collection drawer: compact, ruled, legible at arm's length on a laptop. Depth comes from paper on ground and from rules, never from shadows. Words are set in one grotesque (Archivo); every number is set in a tabular monospace (JetBrains Mono), so a reader always knows which marks are measurements. The world rejects the category default it was built against: a white Streamlit page of sliders over stock Plotly charts.",
+    "keyCharacteristics": [
+      "Cabinet-green rail, cool tray ground, white trays with 1px hairlines, no shadows.",
+      "Pin heads as the series key: GA cobalt, MA vermilion, DE ochre, RS slate.",
+      "Yellow belongs to the best specimen and nothing else.",
+      "Archivo for words, JetBrains Mono (tabular) for every number.",
+      "Ink rules (1.5px) under headings of labels and tables; pale grid rules between rows."
+    ],
+    "rules": [
+      {
+        "name": "The One Yellow Rule",
+        "body": "Elite Yellow marks the best specimen only. Sliders, primary buttons, series and warnings never take it; the only ambient use is the 40% text-selection tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Pin-Head Key Rule",
+        "body": "A series colour always means the same algorithm on every page, chart, bar, tray and pin. A new algorithm gets a new pin colour; it never borrows one.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper-on-Ground Rule",
+        "body": "Content lives on white paper over the tray ground; the ground itself carries only titles, ledes and captions.",
+        "section": "colors"
+      },
+      {
+        "name": "The Typed Number Rule",
+        "body": "Every number is set in JetBrains Mono with tabular figures, wrapped so it can be told from the words around it. Words, including units like \"evaluations\" and \"s\", stay in Archivo; the only mono words are chart readouts and identifiers.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Every container is separated by a 1px Hairline edge and a 4px corner, never by a shadow. Plotly panels get the same frame as HTML trays.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every number in JetBrains Mono with tabular figures, including inline numbers inside sentences.",
+      "**Do** frame every chart and content block in Paper with a 1px Hairline and 4px corner.",
+      "**Do** colour each algorithm by its pin head (GA cobalt, MA vermilion, DE ochre, RS slate) everywhere it appears.",
+      "**Do** keep run controls in the cabinet-green rail with a single Label Paper primary button.",
+      "**Do** fold summary figures into rows of the accession label or an in-world table.",
+      "**Do** show ties, losses and unsolved runs with the same visual weight as wins (tie chip, no chip, hollow pin)."
+    ],
+    "donts": [
+      "**Don't** use Elite Yellow for anything other than the best specimen.",
+      "**Don't** add drop shadows; depth is paper on ground and hairlines.",
+      "**Don't** set numbers in Archivo, or running prose in JetBrains Mono; mono words are limited to chart readouts and identifiers (the generation readout, the accession number, the success annotation).",
+      "**Don't** fall back to stock Plotly or Streamlit chart theming; every chart goes through the shared layout.",
+      "**Don't** pull out summary figures as a row of big hero-metric tiles."
+    ]
+  }
+}

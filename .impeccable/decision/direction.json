@@ -1,0 +1,137 @@
+{
+  "title": "Choose the visual world for the Project 27 app",
+  "question": "The roll assigned the Specimen Cabinet. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Specimen Cabinet",
+      "kicker": "THE ROLL",
+      "lineage": "natural-history collection drawers: enamelled steel cabinets, unit trays, pinned specimens with typed accession labels",
+      "thesis": "Every candidate solution is a specimen: pinned where it was found, labelled with its value, filed by generation.",
+      "palette": ["#1E4D3F", "#EEF2EC", "#15201B", "#2E5BD8", "#D9412B", "#E3B323"],
+      "materials": ["enamelled cabinet green", "unit-tray grid", "typed accession labels", "coloured pin heads"],
+      "viewport": "A cabinet-green rail holds the four pages and the run controls; the main tray shows the 2-D landscape with the population pinned on it, the best specimen's accession label beside it, and the convergence strip below.",
+      "risk": "Tips into museum costume (wood, brass, aged paper) if pushed past type, palette and pins; held to a clean product grid it stays a working tool.",
+      "raised": [
+        {"from": "brand-identity-canon-saville-catalog-sleeve", "raise": "One plot owns each page's field; every other element is secondary to it."},
+        {"from": "ikeda-datamatics", "raise": "Every number is set in tabular monospace figures, so errors, FEs and generations line up in columns."},
+        {"from": "design-annual-s-plate-section", "raise": "One grotesque carries every heading, label and caption."},
+        {"from": "pop-culture-shelf-vertical-video-feed-surface", "raise": "A run lands as a complete state: default runs finish before the eye leaves the button."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "drawer rail: pages + run controls", "x": 0, "y": 0, "w": 3, "h": 10, "accent": true},
+        {"label": "landscape tray: pinned population", "x": 3, "y": 0, "w": 6, "h": 7},
+        {"label": "accession label: best specimen", "x": 9, "y": 0, "w": 3, "h": 4},
+        {"label": "FEs, error, generation", "x": 9, "y": 4, "w": 3, "h": 3},
+        {"label": "convergence strip", "x": 3, "y": 7, "w": 9, "h": 3}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "label": "Survey Sheet",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Swiss topographic survey maps: shaded relief, hypsometric tints, trig-point benchmarks",
+      "thesis": "The landscape is the map; the population is the survey party working across it.",
+      "palette": ["#2F6F9F", "#5E8B5F", "#D9B26F", "#9A9A93", "#8B5A2B", "#F7F8F6"],
+      "materials": ["shaded relief", "contour lines", "survey triangles"],
+      "viewport": "Top tabs for the four pages; the landscape drawn as a tinted relief map with individuals as survey triangles and the optimum as a trig-point benchmark.",
+      "risk": "The literal reading of 'fitness landscape' and the direction most runs on this brief land on; map browns can muddy the chart series."
+    },
+    {
+      "id": "challenger-crouwel-grid-specimen",
+      "label": "Construction Grid",
+      "verdict": "competitive",
+      "lineage": "Wim Crouwel gridded type specimens",
+      "thesis": "One visible cell grid is the armature for the controls, the charts and the search domain itself.",
+      "palette": ["#FFFFFF", "#C9D8F0", "#1A1A1A", "#0050B5"],
+      "materials": ["graph-paper hairline grid", "grid-built numerals"],
+      "viewport": "Sidebar and main area snap to one visible blue cell grid; the 2-D domain is drawn on the same cells; grid-built numerals show the best error.",
+      "case": "Fuses well, since the search domain is literally a grid; loses on audience identification to the cabinet's evolution story.",
+      "risk": "Grid-built numerals read as a gimmick once they leave the one headline number.",
+      "hero": "https://impeccable.style/worlds/cards/crouwel-grid-specimen-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/crouwel-grid-specimen.webp"
+    },
+    {
+      "id": "challenger-rw-manual-acetate-tab-board",
+      "label": "Tabbed Manual",
+      "verdict": "competitive",
+      "lineage": "boxed-software reference manuals with coloured divider tabs",
+      "thesis": "Each page is a manual section with its own divider colour; a stepped tab rail shows where you are.",
+      "palette": ["#E8742A", "#F2C230", "#3E9A5A", "#1F8A8A", "#2F4FC1", "#F4F4F1"],
+      "materials": ["coloured divider board", "clear acetate leaves"],
+      "viewport": "A stepped tab rail on the left, one hue per page; content sits on a pale leaf over that page's divider colour.",
+      "case": "Fuses with strong clarity (colour equals page); loses on audience identification, as examiners no longer read boxed manuals.",
+      "risk": "Six section hues compete with the chart's data colours.",
+      "hero": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board.webp"
+    },
+    {
+      "id": "challenger-brand-identity-canon-saville-catalog-sleeve",
+      "label": "Catalog Sleeve",
+      "verdict": "declined",
+      "lineage": "factory-records catalogue sleeves",
+      "thesis": "Every run filed by catalogue number, its convergence drawn as a stacked pulsar plot.",
+      "palette": ["#111111", "#FFFFFF", "#E04A2F", "#2E6FD0"],
+      "materials": ["matte black sleeve", "white line plot"],
+      "viewport": "A black field with 30 runs stacked as white convergence lines and a catalogue index.",
+      "case": "Fuses poorly: colour codes instead of labels fail an examiner working alone.",
+      "kept": "One plot owns the field.",
+      "risk": "Unlabelled codes hide the task.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-ikeda-datamatics",
+      "label": "Data Field",
+      "verdict": "declined",
+      "lineage": "black-and-white data installations",
+      "thesis": "The search shown as a strobing black-and-white field of every evaluation.",
+      "palette": ["#000000", "#FFFFFF"],
+      "materials": ["barcode columns", "tabular mono numerals"],
+      "viewport": "Barcode columns of evaluations with a sine trace of convergence.",
+      "case": "Fuses poorly: without colour, GA and MA cannot be told apart.",
+      "kept": "Tabular numerals at data density.",
+      "risk": "Unreadable as a comparison tool.",
+      "hero": "https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"
+    },
+    {
+      "id": "challenger-design-annual-s-plate-section",
+      "label": "Annual Plates",
+      "verdict": "declined",
+      "lineage": "design-annual plate sections",
+      "thesis": "Each chart presented as a printed plate with registration marks.",
+      "palette": ["#F5F4F6", "#16181A", "#DCDDF3", "#C9C7C4"],
+      "materials": ["uncoated stock", "registration crosshairs"],
+      "viewport": "One sheet of plates with crosshair corners and a mono token bar.",
+      "case": "Fuses poorly: the editorial hairline look is a common default and says nothing about evolution.",
+      "kept": "One grotesque carries everything.",
+      "risk": "Generic editorial finish.",
+      "hero": "https://impeccable.style/worlds/cards/design-annual-s-plate-section-hero.webp"
+    },
+    {
+      "id": "challenger-pop-culture-shelf-vertical-video-feed-surface",
+      "label": "Full-screen Feed",
+      "verdict": "declined",
+      "lineage": "vertical video feeds",
+      "thesis": "One run fills the screen and the next is one snap away.",
+      "palette": ["#000000", "#FFFFFF"],
+      "materials": ["full-bleed media", "glyph rail"],
+      "viewport": "A full-viewport landscape with a right rail of glyph controls.",
+      "case": "Fuses poorly: a tool needs its controls and data side by side.",
+      "kept": "Results land as complete states, instantly.",
+      "risk": "Hides parameters behind glyphs.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code"},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean Streamlit dashboard, executed with full craft.",
+    "palette": ["#FFFFFF", "#262730", "#FF4B4B", "#1F77B4"],
+    "materials": ["clean grid", "default chart styling"],
+    "viewport": "A sidebar of sliders and selects; the main area holds charts and metric tiles.",
+    "risk": "Looks like most student Streamlit projects by design."
+  },
+  "steer": true
+}

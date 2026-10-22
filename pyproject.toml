@@ -1,0 +1,9 @@
+[project]
+name = "evoopt"
+version = "0.1.0"
+description = "Genetic and Memetic Algorithms for benchmark function optimisation (AI310/CS361 Project 27)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
