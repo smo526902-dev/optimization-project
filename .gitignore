@@ -4,5 +4,11 @@ __pycache__/
 .pytest_cache/
 .streamlit/secrets.toml
 experiments/results/raw/
-.impeccable/review/
-.impeccable/decision/serve.*
+experiments/results/quick/
+
+# Personal study pages and design-tool working files (kept on disk, not in the repository)
+study/
+.archify/
+.impeccable/
+PRODUCT.md
+DESIGN.md
